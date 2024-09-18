@@ -81,13 +81,4 @@ function actualizarGasto() {
   btnAgregar();
 }
 
-function Verificar(Nombre) {
-  let index = listaNombresGastos.findIndex(
-    (elemento) => elemento[0] === Nombre
-  );
-  if (index === -1) {
-    // Si no existe, agregar el nuevo gasto
-  } else {
-    alert("El gasto ya existe.");
-  }
-}
+
